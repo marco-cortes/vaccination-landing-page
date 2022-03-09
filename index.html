@@ -18,12 +18,15 @@
     <header class="nav">
         <nav class="container nav-bar">
             <div class="nav-logo"><a href="./" class="logo">Vaccination</a></div>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
                 <a class="nav-link">Database</a>
                 <a class="nav-link">Education</a>
                 <a class="nav-link">News</a>
                 <a class="nav-link">Regulation</a>
                 <a class="nav-link btn btn-blue">Hoax Buster</a>
+            </div>
+            <div class="nav-menu" id="menu-icon">
+                <i class="fa-solid fa-bars nav-menu-icon"></i>
             </div>
         </nav>
     </header>
@@ -53,15 +56,17 @@
                     <p class="hero-card-text"><i class="fa-solid fa-location-dot blue"></i> Location</p>
                     <h2 class="hero-card-title">Jakarta Utara</h2>
                 </div>
-                <div class="hero-card-item hero-card-padding">
+                <div class="hero-card-item">
                     <p class="hero-card-text"><i class="fa-solid fa-calendar blue"></i> Date</p>
                     <h2 class="hero-card-title">08 July 2021</h2>
                 </div>
-                <div class="hero-card-item hero-card-l-p">
+                <div class="hero-card-item">
                     <p class="hero-card-text"><i class="fa-solid fa-pen blue"></i> Vaccine Type</p>
                     <h2 class="hero-card-title">Moderna</h2>
                 </div>
-                <a href="#" class="btn">Submit</a>
+                <div class="hero-card-item">
+                    <a href="#" class="btn">Submit</a>
+                </div>
             </div>
         </div>
         <div class="hero-img bg-gradient">
@@ -214,7 +219,7 @@
     </div>
     <div class="contact container">
         <div class="contact-cards">
-            <div class="c-cards-item">
+            <div class="c-cards-item c-cards-item-end">
                 <div class="c-cards-content">
                     <i class="fa-solid fa-phone c-cards-icon"></i>
                     <div class="c-cards-text">
@@ -226,7 +231,7 @@
                 </div>
                 <a href="#" class="btn-white">Call Now</a>
             </div>
-            <div class="c-cards-item">
+            <div class="c-cards-item c-cards-item-end">
                 <div class="c-cards-content">
                     <i class="fa-solid fa-comment-dots c-cards-icon"></i>
                     <div class="c-cards-text">
@@ -238,7 +243,7 @@
                 </div>
                 <a href="#" class="btn-white">Chat Now</a>
             </div>
-            <div class="c-cards-item">
+            <div class="c-cards-item c-cards-item-start">
                 <div class="c-cards-content">
                     <i class="fa-solid fa-video c-cards-icon"></i>
                     <div class="c-cards-text">
@@ -250,7 +255,7 @@
                 </div>
                 <a href="#" class="btn-white">Video Call Now</a>
             </div>
-            <div class="c-cards-item">
+            <div class="c-cards-item c-cards-item-start">
                 <div class="c-cards-content">
                     <i class="fa-solid fa-envelope c-cards-icon"></i>
                     <div class="c-cards-text">
@@ -306,7 +311,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="./scripts.js"></script>
     <script src="https://kit.fontawesome.com/c1cc1b3540.js" crossorigin="anonymous"></script>
 </body>
 

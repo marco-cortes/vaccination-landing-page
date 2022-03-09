@@ -1,2 +1,2 @@
-# vaccination-landing-page
+# Vaccination Landing Page
 Landing page for vaccination

@@ -1,18 +1,5 @@
-//nav-links-active
-const open = () => {
-    document.getElementById('nav-links').classList.add("nav-links-active");
-}
-
-const close = () => {
-    document.getElementById('nav-links').classList.remove("nav-links-active");
-}
-
 document.getElementById("menu-icon").addEventListener("click", () => {
-    if (document.getElementById('nav-links').classList.contains("nav-links-active")) {
-        close();
-    } else {
-        open();
-    }
+    document.getElementById('nav-links').classList.toggle("nav-links-active");
 });
 
 const cards = document.getElementsByClassName("faq-item");

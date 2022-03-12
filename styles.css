@@ -712,4 +712,7 @@ p {
     .text-3 p {
         margin-bottom: 0;
     }
+    .text-end {
+        justify-content: end;
+    }
 }
